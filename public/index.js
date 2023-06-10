@@ -1,14 +1,19 @@
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita o envio do formulário
-  
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-  
+document.getElementById("loginForm").addEventListener("submit",function(event){
+  event.preventDefault();
 
-    if (username === "usuario" && password === "senha") {
-      window.location.href = "outra_pagina.html";
-    } else {
-      alert("Usuário ou senha inválidos");
-    }
-  });
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+
+  if (name === "emerson" && email === "emerson.cardoso@gmail.com" && password === "claudete"){
+      window.location.href = "questions.html";
+
+  }else{
+      alert("usuario nao cadastrado")
+
+  }
+
+
+
+})
   
