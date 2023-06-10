@@ -52,7 +52,12 @@ input{
   height: 10rem;
   width: 14rem;
   margin: 0.5rem;
-  outline: none;
+  border: none;
+  
+}
+
+input:focus{
+  outline: solid 2px #ce7ae6;
 }
 
 #submit{
@@ -61,11 +66,27 @@ input{
   height: 4rem;
   background-color: #cb6be6;
   border-radius: 10px;
+  border: none;
   
+}
+
+#submit:hover{
+  background-color: #ce7ae6;
+    border-color: #ce7ae6;
+    color: white;
 }
 
 p{
   margin-top: 0.5rem;
   font-size: 15px;
 }
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
 
