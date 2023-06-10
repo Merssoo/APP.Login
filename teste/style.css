@@ -1,0 +1,23 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
